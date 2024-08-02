@@ -1,4 +1,4 @@
-import selfPortrait from "../../../images/selfPortrait.jpg"
+import selfPortrait from "../../../images/selfPortraitNoBgCropped.png";
 
 export default function HeroSection() {
     return (
@@ -19,7 +19,7 @@ export default function HeroSection() {
                             Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua?
                     </p>
                 </div>
-                <button className="btnContactMe">Contact Me</button>
+                <button className="btn btn-primary contactMe">Contact Me</button>
             </div>
             <div className="heroSectionImg">
                 <img src={selfPortrait} alt="HeroSection" />
